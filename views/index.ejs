@@ -1,0 +1,48 @@
+<%-include("heading")%>
+
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+            <a href="/add_user" class="border-shadow">
+                <span class="text-gradiant">New User</span>
+            </a>
+        </div>
+        <form action="/" method="post">
+            <table class="table">
+                <thead class="thread-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>@Email</th>
+                    <th>Gender</th>
+                    <th>Status</th>
+                    <th>Acton</th>
+                </tr>
+                </thead>
+                <tbody>
+                <% for(var i = 0; i<users.length;i++){ %>
+                <tr>
+                    <td><%= i+1%></td>
+                    <td><%= users[i].name%></td>
+                    <td><%= users[i].email%></td>
+                    <td><%= users[i].gender%></td>
+                    <td><%= users[i].status%></td>
+                    <td>
+                        <a href="/update_user?id=<%= users[i]._id%>" class="btn border-shadow update">
+                            <span class="text-gradiant"><i class="fas fa-pencil-alt"></i></span>
+                        </a>
+                        <a class="btn border-shadow delete" data-id = <%= users[i]._id%>>
+                            <span class="text-gradiant"><i class="fas fa-times"></i></span>
+                        </a>
+                    </td>
+                </tr>
+                <%}%>
+                </tbody>
+            </table>
+
+        </form>
+    </div>
+</main>
+
+
+<%-include("footer")%>
