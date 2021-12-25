@@ -8,11 +8,11 @@
 ## Screen Shots<br/> 
 
 **Home Screen</br>**
-<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/Home_f5c4e4.png" height="600" width="800"/>
+<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/Home_f5c4e4.png" height="300" width="400"/>
 
 **Add User**</br>
-<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/AddUser_klqmmk.png" height="600" width="800"/>
+<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/AddUser_klqmmk.png" height="300" width="400"/>
 
 **Update User**</br>
-<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/updateUser_r8g51f.png" height="600" width="800"/>
+<img src="https://res.cloudinary.com/drxpiwsq0/image/upload/v1640429077/updateUser_r8g51f.png" height="300" width="400"/>
 <br/>
